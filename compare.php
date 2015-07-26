@@ -57,9 +57,6 @@ foreach ($source_files as $filename)
       echo '<br>// ' . $source . ': ' . $strings[$source][$filename][$key];
     }
   }
-  //$strings[$source][$filename] = readfile($filename);
-
-  //var_dump($strings[$source][$filename]);
 }
 
 ?>
